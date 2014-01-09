@@ -1,5 +1,5 @@
 <?php
-//Return student data by student name (syntax: lastname-firstname)
+//Return student data by student name (syntax: http://<servername>/api.php?action=getstudentdata&name=lastame-firstname)
 function getstudentdata($name)
 {
   $student_data = array();
